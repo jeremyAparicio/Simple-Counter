@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+ background-color: darksalmon;
+}
+
+span{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    width: 6%;
+    height: 100px;
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 4px 4px 0px;
+    z-index: 9;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187)
+}
+
